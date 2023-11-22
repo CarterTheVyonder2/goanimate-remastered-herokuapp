@@ -200,7 +200,7 @@ module.exports = (voiceName, text) => {
 			case "readloud": {
 				const req = https.request(
 					{
-						host: "readloud.net",
+						host: "gonutts.net",
 						path: voice.arg,
 						method: "POST",
 						port: "443",
